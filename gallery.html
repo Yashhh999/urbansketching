@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Alex's Sketching Thing</title>
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✏️</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar-stuff">
+            <div class="my-logo-thing">
+                <span class="bouncy-pencil">✏️</span>
+                <h1>Urban Sketching Adventures</h1>
+            </div>
+            <ul class="menu-buttons">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="current-page">Gallery</a></li>
+                <li><a href="tips.html">Tips & Tricks</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="big-header-area">
+            <h2>My Messy Sketch Collection</h2>
+            <p class="subtitle-thingy">Here's all the random stuff I've drawn around town - some turned out pretty decent, others are total disasters but I'm posting them anyway</p>
+        </section>
+
+        <section class="intro-rambling-section">
+            <div class="word-vomit-area">
+                <p class="passion-paragraph">This gallery is basically my visual diary of wandering around the city. I've sketched everything from fancy buildings to weird street performers - honestly just whatever catches my eye that day.</p>
+                <p class="technique-paragraph">My setup is super basic - usually just a crappy pen I bought at CVS, this tiny watercolor set my aunt got me for Christmas, and some colored pencils when I remember to bring them. It's really not about having expensive stuff.</p>
+                <p class="growth-paragraph">Looking back at my old drawings is hilarious - my people used to look like stick figures that got run over by a truck! Now they actually look somewhat human, which is progress I guess. Plus I've discovered so many cool spots in my neighborhood that I never knew existed.</p>
+            </div>
+        </section>
+
+        <section class="picture-filter-stuff">
+            <h3>Sort By Whatever</h3>
+            <div class="filter-button-chaos">
+                <button class="filter-btn stupid-active" data-filter="all">Just Show Everything</button>
+                <button class="filter-btn" data-filter="buildings">Buildings & Architecture</button>
+                <button class="filter-btn" data-filter="people">People I Sketched</button>
+                <button class="filter-btn" data-filter="street">Street Stuff</button>
+                <button class="filter-btn" data-filter="nature">Parks & Trees</button>
+            </div>
+        </section>
+
+        <section class="gallery-picture-dump">
+            <div class="sketch-grid-mess">
+                <div class="sketch-item buildings">
+                    <div class="fake-sketch-container">
+                        <div class="pretend-sketch-frame">
+                            <div class="sketch-content building-sketch">
+                                <div class="building-shape-1"></div>
+                                <div class="building-shape-2"></div>
+                                <div class="building-shape-3"></div>
+                                <div class="windows-dots">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sketch-caption-thing">
+                            <h4>Downtown Chaos</h4>
+                            <p>Tried to draw all the buildings on Main Street - those tiny windows took me forever and I think I messed up the perspective</p>
+                            <span class="date-stamp">March 15, 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sketch-item people">
+                    <div class="fake-sketch-container">
+                        <div class="pretend-sketch-frame">
+                            <div class="sketch-content person-sketch">
+                                <div class="stick-person">
+                                    <div class="head-circle"></div>
+                                    <div class="body-line"></div>
+                                    <div class="arm-lines">
+                                        <div class="left-arm"></div>
+                                        <div class="right-arm"></div>
+                                    </div>
+                                    <div class="leg-lines">
+                                        <div class="left-leg"></div>
+                                        <div class="right-leg"></div>
+                                    </div>
+                                </div>
+                                <div class="bench-shape"></div>
+                            </div>
+                        </div>
+                        <div class="sketch-caption-thing">
+                            <h4>Bench Guy</h4>
+                            <p>This old dude sits on the same bench every day around 2pm - finally got up the courage to sketch him while he was reading his newspaper</p>
+                            <span class="date-stamp">March 8, 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sketch-item street">
+                    <div class="fake-sketch-container">
+                        <div class="pretend-sketch-frame">
+                            <div class="sketch-content street-sketch">
+                                <div class="road-lines">
+                                    <div class="street-line"></div>
+                                    <div class="street-line"></div>
+                                    <div class="street-line"></div>
+                                </div>
+                                <div class="car-shapes">
+                                    <div class="tiny-car"></div>
+                                    <div class="tiny-car"></div>
+                                </div>
+                                <div class="sidewalk-edge"></div>
+                            </div>
+                        </div>
+                        <div class="sketch-caption-thing">
+                            <h4>Rush Hour Nightmare</h4>
+                            <p>Tried to sketch during rush hour - bad idea because cars kept moving but I kind of like how frantic it looks</p>
+                            <span class="date-stamp">March 22, 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sketch-item nature">
+                    <div class="fake-sketch-container">
+                        <div class="pretend-sketch-frame">
+                            <div class="sketch-content tree-sketch">
+                                <div class="tree-trunk"></div>
+                                <div class="tree-branches">
+                                    <div class="branch"></div>
+                                    <div class="branch"></div>
+                                    <div class="branch"></div>
+                                </div>
+                                <div class="tree-leaves">
+                                    <div class="leaf-cluster"></div>
+                                    <div class="leaf-cluster"></div>
+                                    <div class="leaf-cluster"></div>
+                                </div>
+                                <div class="grass-line"></div>
+                            </div>
+                        </div>
+                        <div class="sketch-caption-thing">
+                            <h4>That Big Tree in Central Park</h4>
+                            <p>This massive oak tree has been there forever - spent like two hours just trying to get the bark texture right and I'm still not happy with it</p>
+                            <span class="date-stamp">March 1, 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sketch-item buildings">
+                    <div class="fake-sketch-container">
+                        <div class="pretend-sketch-frame">
+                            <div class="sketch-content cafe-sketch">
+                                <div class="storefront-shape">
+                                    <div class="window-frame"></div>
+                                    <div class="door-frame"></div>
+                                    <div class="awning-thing"></div>
+                                </div>
+                                <div class="sidewalk-tables">
+                                    <div class="table-shape"></div>
+                                    <div class="chair-shape"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sketch-caption-thing">
+                            <h4>My Favorite Coffee Place</h4>
+                            <p>This is where I go to do homework sometimes - the barista Maria actually came out to look when she saw me drawing it which was kinda embarrassing</p>
+                            <span class="date-stamp">February 18, 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sketch-item people">
+                    <div class="fake-sketch-container">
+                        <div class="pretend-sketch-frame">
+                            <div class="sketch-content musician-sketch">
+                                <div class="person-playing">
+                                    <div class="head-circle"></div>
+                                    <div class="body-shape"></div>
+                                    <div class="guitar-shape">
+                                        <div class="guitar-body"></div>
+                                        <div class="guitar-neck"></div>
+                                    </div>
+                                </div>
+                                <div class="music-notes">♪ ♫ ♪</div>
+                                <div class="hat-for-money"></div>
+                            </div>
+                        </div>
+                        <div class="sketch-caption-thing">
+                            <h4>Weekend Street Musician</h4>
+                            <p>This guy sets up on the corner every Saturday and Sunday - his guitar case is covered in the coolest band stickers I've ever seen</p>
+                            <span class="date-stamp">March 29, 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="random-numbers-section">
+                <h3>Some Random Stats</h3>
+                <div class="numbers-container-thingy">
+                    <div class="single-number-box">
+                        <span class="huge-number">47</span>
+                        <span class="number-description">Sketches This Year</span>
+                    </div>
+                    <div class="single-number-box">
+                        <span class="huge-number">23</span>
+                        <span class="number-description">Different Places</span>
+                    </div>
+                    <div class="single-number-box">
+                        <span class="huge-number">89</span>
+                        <span class="number-description">Hours Spent Drawing</span>
+                    </div>
+                    <div class="single-number-box">
+                        <span class="huge-number">12</span>
+                        <span class="number-description">New People I Met</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-outro-ramble">
+            <div class="outro-content-box">
+                <h3>More Drawings Coming Eventually!</h3>
+                <p class="outro-text">I keep adding new stuff when I remember to upload it. Each sketch has some random story behind it, and honestly looking through these old ones makes me want to grab my sketchbook and head out right now.</p>
+                <p class="outro-text">If you have questions about any of these or want to know the stories behind them, just message me! I could probably talk for hours about the weird details in each one.</p>
+                <div class="back-to-exploring">
+                    <a href="index.html" class="fancy-button-link">Back to Home</a>
+                    <a href="tips.html" class="fancy-button-link">Check Out My Tips</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bottom-page-stuff">
+        <div class="footer-content-area">
+            <div class="footer-section-thingy">
+                <h4>Alex's Art Thing</h4>
+                <p>Just a regular high school student who got weirdly into drawing buildings and stuff around town</p>
+            </div>
+            <div class="footer-section-thingy">
+                <h4>Quick Links</h4>
+                <ul class="footer-link-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="tips.html">Tips & Tricks</a></li>
+                </ul>
+            </div>
+            <div class="footer-section-thingy">
+                <h4>Follow the Journey</h4>
+                <div class="social-link-chaos">
+                    <a href="https://instagram.com" target="_blank" rel="noopener">📸 Instagram</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener">🐦 Twitter</a>
+                    <a href="https://pinterest.com" target="_blank" rel="noopener">📌 Pinterest</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-line">
+            <p>&copy; 2024 Alex's Urban Sketching Adventures. Made with ☕ and lots of eraser marks.</p>
+        </div>
+    </footer>
+</body>
+</html>
